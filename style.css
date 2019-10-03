@@ -1,0 +1,51 @@
+body{
+    background: rgb(98, 177, 177);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width: 255px;
+    min-height: 350px;
+    background-color: #d4cec7;
+    border: 3px solid #424040;
+    border-radius: 5%;
+    padding: 25px;
+}
+input{
+    height: 30px;
+    border-radius: 8px;
+}
+input:focus{
+    border-color: blue;
+}
+button{
+    height: 40px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+}
+#numbersField, #results{
+    background-color: antiquewhite;
+    color: #424040;
+    border: 1px solid #424040;
+    border-radius: 20px;
+    width: 230px;
+    padding-left: 15px;
+    min-height: 25px;
+}
+#results{
+    margin-top: 25px;
+}
+#calculate{
+    margin-top: 25px;
+    width: 250px;
+}
